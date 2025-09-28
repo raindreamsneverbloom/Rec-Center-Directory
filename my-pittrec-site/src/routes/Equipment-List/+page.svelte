@@ -1,5 +1,9 @@
+
 <!-- In your HTML head -->
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+
+  <title>Rec Center | Equipment List</title>
 
 <script lang='ts'>
   let searchTerm='';
@@ -156,7 +160,7 @@ class="bg-gray-200 text-black px-4 py-2 rounded hover:bg-gray-300 transition inl
 <section id="Calf-Raises" class="equipment-card">
   <h1> Calf Raises</h1>
   <ul class="bullets">
-    <li>Floor 2 has 1 Steaded Calf Raise</li>
+    <li>Floor 2 has 1 Seated Calf Raise</li>
     <li>Floor 3 has 1 Calf Extension Machine</li>
     <li>Floor 4 has 2 Steaded and 1 Plate Loaded Calf Raise Machine</li>
   </ul>
@@ -191,7 +195,7 @@ class="bg-gray-200 text-black px-4 py-2 rounded hover:bg-gray-300 transition inl
 </section>
 
 <section id="Chest-Press" class="equipment-card">
-  <h1> Chest Press Machine</h1>
+  <h1> Chest Press</h1>
   <ul class="bullets">
     <li>Floor 2 has 2 Plate Loaded Chest Press</li>
     <li>Floor 3 has 1 Chest Press Machine</li>
@@ -221,11 +225,11 @@ class="bg-gray-200 text-black px-4 py-2 rounded hover:bg-gray-300 transition inl
 <section id="Dumbbells" class="equipment-card">
   <h1> Dumbbells</h1>
   <ul class="bullets">
-    <li>Floor 2 has Heavier Dumbbells with ~5 benches ranging from 50 to 100lbs</li>
-    <li>Floor 3 has Lighter Dumbbells ranging from 2.5 to 30lbs (no benches available)</li>
-    <li>Floor 4 has Lighter Dumbbells with many benches ranging from 0 to 50lbs</li>
-    <li>Floor 6 has Lighter Dumbbells with ~8 benches ranging from 5 to 50lbs</li>
-    <li>Floor 7 has Lighter Dumbbells with ~4 benches ranging from 5 to 50lbs</li>
+    <li>Floor 2 has Heavier Dumbbells with ~5 benches ranging from 50 - 100lbs</li>
+    <li>Floor 3 has Lighter Dumbbells ranging from 2.5 - 30lbs (no benches available)</li>
+    <li>Floor 4 has Lighter Dumbbells with many benches ranging from 0 - 50lbs</li>
+    <li>Floor 6 has Lighter Dumbbells with ~8 benches ranging from 5 - 50lbs</li>
+    <li>Floor 7 has Lighter Dumbbells with ~4 benches ranging from 5 - 50lbs</li>
   </ul>
 </section>
 
@@ -311,7 +315,8 @@ class="bg-gray-200 text-black px-4 py-2 rounded hover:bg-gray-300 transition inl
 <section id="Pullups" class="equipment-card">
   <h1>Pullups</h1>
   <ul class="bullets">
-    <li>Floor 3 has 1 assisted and 2 obnoxious bodyweight pullup spots</li>
+    <li>Floor 3 has 1 assisted and 2 bodyweight pullup spots between cables</li>
+    <li>Floor 4 has 1 bodyweight pullup spot</li>
   </ul>
 </section>
 
@@ -448,12 +453,17 @@ class="bg-gray-200 text-black px-4 py-2 rounded hover:bg-gray-300 transition inl
     margin-bottom: 0.1rem;       /* Adds space below */
     padding: 0.5rem 1rem;
     background-color: rgb(10, 40, 70);   /* Tailwind gray-200 */
-    color: rgba(255, 205, 5, 0.877);
+    color: rgb(255, 205, 5);
     border-radius: 0.375rem;
     text-decoration: none;
     transition: background-color 0.2s ease;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top:1rem;
+    margin-bottom: .5rem;
+    font-family: 'EB Garamond', serif;
+    font-size:1.125rem;
+    text-align: center;
   }
 
   #back-home:hover {
@@ -469,7 +479,7 @@ class="bg-gray-200 text-black px-4 py-2 rounded hover:bg-gray-300 transition inl
 }
 
   #Searchbar{
-  border-color: gold;
+  border-color: rgba(255, 205, 5, 0.877);
   border-width: .1rem;
   color: white;
   background-color: rgb(10, 40, 70);
@@ -477,3 +487,4 @@ class="bg-gray-200 text-black px-4 py-2 rounded hover:bg-gray-300 transition inl
   
   
   </style>
+
